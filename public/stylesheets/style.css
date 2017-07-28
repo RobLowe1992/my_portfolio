@@ -1,0 +1,227 @@
+body {
+  margin : 0 auto;
+  font-family : "Amatic SC";
+  font-weight : 700;
+}
+header {
+  background: url("/images/header.jpg");
+  background-size: 100%;
+  background-position: 50% 65%;
+  height: 550px;
+}
+main {
+  background-image : url("http://images.faena.com/wp-content/uploads/sites/4/2016/09/fog-forest-nature-640-9331-cool.jpg");
+}
+main section div:nth-of-type(2) {
+  margin : 0 auto;
+}
+.container-fluid {
+  padding : 0;
+}
+main section div.row:nth-of-type(4) {
+  overflow-x: auto;
+}
+.about {
+  padding: 3em;
+  width: 100%;
+  background-color: white;
+  font-family: 'Lato';
+  margin: 0 auto
+}
+.about h1{
+  font-size: 3em;
+}
+.about .description {
+  font-size: 2em;
+}
+.titles {
+  font-size: 2.5em;
+  margin: 1em 0 .5em 0;
+}
+nav {
+  position : relative;
+}
+.navbar {
+  border : none;
+}
+.nav ul {
+  background-color : rgba(162,148,139,.85);
+  width : 100%;
+  text-align: center;
+}
+.nav ul li {
+  padding-right: 1em;
+  font-size : 2em;
+  display: inline;
+}
+.nav ul li a {
+  color: #f9b460;
+  font-family: 'Lato', sans-serif;
+}
+.nav ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+.header-content {
+  padding-top: 2em;
+}
+header a img {
+  margin-top : 5px;
+  position : absolute;
+  right : 40px;
+  width : 70px;
+  height : 35px;
+}
+header section:nth-of-type(1) {
+  position : fixed;
+  width : 100%;
+  z-index : 1;
+}
+header section:nth-of-type(2) {
+  padding-top : 50px;
+  color : white;
+}
+header section:nth-of-type(2) div.fly-in-text {
+  position: relative;
+  top: 30px;
+
+}
+header section:nth-of-type(2) div.fly-in-text span {
+  font-size: 4.5em;
+}
+
+header section:nth-of-type(2) div.fly-in-text:nth-of-type(2) span{
+  font-size: 3em;
+}
+
+header section:nth-of-type(2) h1 {
+  margin-top : 0;
+}
+header section:nth-of-type(2) img {
+  width : 250px;
+  height : 250px;
+  position: relative;
+}
+
+.featured-image {
+  width : 80%;
+
+}
+.top-text {
+  color: black;
+}
+.proj-title {
+  font-family: 'Lato', helvetica;
+}
+.orange {
+  color : #f9b460;
+  font-size: 1em;
+  font-family: 'Lato';
+}
+.orange:hover {
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.text-muted {
+  color : white;
+  font-weight: 700;
+  font-size: 4em;
+  padding: 1em;
+}
+#projects {
+  color : white;
+  display: inline-flex;
+  margin : 20px;
+  padding : 20px;
+}
+ul {
+  list-style-type: none;
+}
+.fly-in-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: none;
+}
+.fly-in-text span {
+  display: inline-block;
+  font-weight: 500;
+  margin-right: 10px;
+  opacity: 1;
+  transition: all 2.5s ease;
+}
+.fly-in-text span:last-child {
+  margin-right: 0;
+}
+.fly-in-text.temp-hide span{
+  opacity: 0
+}
+.fly-in-text.temp-hide span:nth-child(1) {transform: translateX(90px) translateY(-90px)}
+.fly-in-text.temp-hide span:nth-child(2) {transform: translateX(-150px) translateY(190px)}
+.fly-in-text.temp-hide span:nth-child(3) {transform: translateX(-130px) translateY(-170px)}
+.fly-in-text.temp-hide span:nth-child(4) {transform: translateX(-200px) translateY(-270px)}
+.fly-in-text.temp-hide span:nth-child(5) {transform: translateX(50px) translateY(-50px)}
+.fly-in-text.temp-hide span:nth-child(6) {transform: translateX(-150px) translateY(50px)}
+.fly-in-text.temp-hide span:nth-child(7) {transform: translateX(130px) translateY(-30px)}
+.fly-in-text.temp-hide span:nth-child(8) {transform: translateX(-30px) translateY(310px)}
+.fly-in-text.temp-hide span:nth-child(9) {transform: translateX(10px) translateY(-10px)}
+.fly-in-text.temp-hide span:nth-child(10) {transform: translateX(-10px) translateY(110px)}
+.fly-in-text.temp-hide span:nth-child(11) {transform: translateX(-80px) translateY(80px)}
+.fly-in-text.temp-hide span:nth-child(12) {transform: translateX(80px) translateY(-180px)}
+.fly-in-text.temp-hide span:nth-child(13) {transform: translateX(-60px) translateY(60px)}
+.fly-in-text.temp-hide span:nth-child(14) {transform: translateX(160px) translateY(-20px)}
+.fly-in-text.temp-hide span:nth-child(15) {transform: translateX(-340px) translateY(140px)}
+.fly-in-text.temp-hide span:nth-child(16) {transform: translateX(240px) translateY(-40px)}
+.fly-in-text.temp-hide span:nth-child(17) {transform: translateX(-20px) translateY(120px)}
+.fly-in-text.temp-hide span:nth-child(18) {transform: translateX(220px) translateY(-220px)}
+.fly-in-text.temp-hide span:nth-child(19) {transform: translateX(-90px) translateY(190px)}
+.fly-in-text.temp-hide span:nth-child(20) {transform: translateX(190px) translateY(-90px)}
+.fly-in-text.temp-hide span:nth-child(21) {transform: translateX(-70px) translateY(70px)}
+.fly-in-text.temp-hide span:nth-child(22) {transform: translateX(70px) translateY(-170px)}
+.fly-in-text.temp-hide span:nth-child(23) {transform: translateX(-150px) translateY(50px)}
+.fly-in-text.temp-hide span:nth-child(24) {transform: translateX(200px) translateY(-150px)}
+.fly-in-text.temp-hide span:nth-child(25) {transform: translateX(-230px) translateY(30px)}
+.fly-in-text.temp-hide span:nth-child(26) {transform: translateX(30px) translateY(-130px)}
+
+/*@media screen and (max-width: 1200px) {*/
+  /*#projects {*/
+    /*display: inline-block;*/
+    /*margin: 0 auto;*/
+  /*}*/
+/*}*/
+
+@media screen and (max-width: 1000px) {
+  main section div.row:nth-of-type(4) {
+    overflow-x: none;
+    margin: 20px auto;
+  }
+
+  #projects div:nth-of-type(2n + 1) {
+    position: relative;
+    left: 19px;
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logo {
+    display: none;
+  }
+  .fly-in-text:nth-of-type(2) {
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .skills {
+    margin-top: 2em;
+  }
+  .skills:hover  {
+    transform: translateX(360);
+  }
+  header {
+    background-size: cover;
+  }
+}

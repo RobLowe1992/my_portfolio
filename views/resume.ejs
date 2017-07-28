@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Resume</title>
+
+  <link href="/stylesheets/style2.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+  <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <div id="main">
+    <div class="download">
+      <a href="/images/Robert.Lowe.pdf" class="btn btn-default btn-lg">Download Resume</a>
+    </div>
+    <div id="header" class="center-content">
+      <ul id="topContacts" class="flex-box"></ul>
+    </div>
+    <div style="clear: both;"></div>
+    <div id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="container">
+        <div class="row"></div>
+      </div>
+    </div>
+    <div id="workExperience" class="gray">
+      <h2 id="workExperienceBG">Work Experience</h2>
+      <div class="container">
+        <div class="row"></div>
+      </div>
+    </div>
+    <div id="education" class="gray">
+      <h2>Education</h2>
+      <div class="container">
+        <div class="row"></div>
+      </div>
+    </div>
+    <!-- <div id="mapDiv">
+      <h2>Where I've Lived and Worked</h2>
+    </div> -->
+    <div id="lets-connect" class="dark-gray">
+      <h2 class="orange center-text">Let's Connect</h2>
+        <ul id="footerContacts" class="flex-box">
+      </ul>
+    </div>
+  </div>
+
+
+  <script src="javascripts/jQuery.js"></script>
+  <script src="javascripts/helper.js"></script>
+  <script src="javascripts/resumeBuilder.js"></script>
+  <script>
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('topContacts').style.display = 'none';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+      document.getElementById('header').style.display = 'white';
+    }
+    if(document.getElementsByClassName('work-entry').length === 0) {
+      document.getElementById('workExperience').style.backgroundColor = 'white';
+    }
+    if(document.getElementsByClassName('project-entry').length === 0) {
+      document.getElementById('projects').style.display = 'white';
+    }
+    if(document.getElementsByClassName('education-entry').length === 0) {
+      document.getElementById('education').style.backgroundColor = 'white';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('lets-connect').style.backgroundColor = 'white';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.backgroundColor = 'white';
+    }
+
+    $("#mapDiv").append(googleMap);
+  </script>
+
+</body>
+</html>
