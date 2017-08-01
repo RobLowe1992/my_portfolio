@@ -30,16 +30,31 @@ $(function() {
         setTimeout(function () {
             $topText.css({
                 "border": "solid 1em white",
-                "padding": "4em 1em 1em 1em"
+                "padding": "2.5em 0 0 0",
+                "background-color": "#fff"
             });
         }, 2500)
     }, 500);
     $thumbnailImage.fadeIn(500);
 
+    window.sr = ScrollReveal();
+    sr.reveal('.top-nav', {
+        duration: 2500,
+        origin: 'bottom'
+    })
+    sr.reveal('.left-scroll', {
+        duration: 1500,
+        origin: 'left'
+    })
+    sr.reveal('.right-scroll', {
+        duration: 1500,
+        origin: 'right'
+    })
+
     $('.slide').click(function(e){
         e.preventDefault();
         var linkedHref = $(this).attr('href');
-        console.log(linkedHref)
+        console.log(linkedHref);
         $('html,body').animate({scrollTop: $(linkedHref).offset().top}, 1000);
     });
 });

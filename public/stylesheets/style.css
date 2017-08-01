@@ -11,14 +11,11 @@ body {
   position: absolute;
 }
 header {
-  background: url("/images/header2.jpeg");
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vh;
-  position: relative;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+    position: relative;
+    background: url("/images/header2.jpeg") no-repeat fixed center;
 }
 main {
   /*background-image : url("http://images.faena.com/wp-content/uploads/sites/4/2016/09/fog-forest-nature-640-9331-cool.jpg");*/
@@ -68,20 +65,21 @@ main section div.row:nth-of-type(4) {
 }
 
 .about-info {
-  padding: 3em;
-  width: 100%;
-  font-family: 'Dense';
-  margin: 0 auto
+    padding: 0 2em 0 2em;
+    width: 100%;
+    font-family: 'Dense', sans-serif;
+    margin: 0 auto;
 }
 .about h1{
   font-size: 3em;
 }
 .about .description {
   font-size: 2em;
+    margin-top: 1em;
 }
 .titles {
   font-size: 2.5em;
-  margin: 1em 0 .5em 0;
+  margin: .5em 0 .5em 0;
 }
 .work {
   min-height: 100vh;
@@ -93,13 +91,14 @@ main section div.row:nth-of-type(4) {
   right: 0;
 }
 .work-cont{
-  background: url("/images/work.jpeg");
-  background-size: 100%;
+    background-size: 100%;
   /*background-position: -30% 20%;*/
   height: 100%;
-  width: 111vh;
-  position: relative;
-  background-repeat: no-repeat;
+  width: 51%;
+  position: absolute;
+    background: url("/images/work.jpeg") no-repeat;
+    right: 51%;
+  left: 0;
 }
 .contact {
   min-height: 100vh;
@@ -175,7 +174,6 @@ nav {
 }
 .header-content {
   padding-top: 2em;
-  margin-top: 4em;
 }
 header a img {
   margin-top : 5px;
@@ -191,7 +189,9 @@ header a img {
   margin-top: 3em;
   font-size: 1.5em;
 }
-
+.top-nav {
+    margin: 0;
+}
 .navi a {
   color: white;
   font-family: 'Lato', sans-serif;
@@ -218,7 +218,7 @@ header section div.fly-in-text {
 }
 .img-circle {
   opacity: 1;
-  margin: 7em auto 5em auto;
+  margin: 4em auto 3em auto;
 }
 
 header section div.fly-in-text span {
@@ -274,8 +274,10 @@ ul {
   position: relative;
   display: inline;
   left: 0 !important;
-  font-size: 1.3em;
+  font-size: 2em;
+  /*background-color: #fff;*/
 }
+
 .top-text, .bottom-text {
   font-family: "Lato", sans-serif;
 }
@@ -286,11 +288,17 @@ ul {
   transform: translateX(-50%) translateY(-50%);
 }
 .fly-in-text span {
-  display: inline-block;
-  font-weight: 500;
-  margin-right: 10px;
-  opacity: 1;
-  transition: all 2.5s ease;
+    display: inline-block;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+
+.trans {
+    background: url("/images/header2.jpeg") no-repeat fixed center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 }
 .fly-in-text span:last-child {
   margin-right: 0;

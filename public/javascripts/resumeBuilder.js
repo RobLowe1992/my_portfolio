@@ -196,7 +196,7 @@ function displaySkills() {
           $("#skills").append(formattedSkill);
           }
         }
-    };
+}
 displaySkills();
 document.getElementById('skills').style.display="inline";
 
@@ -218,8 +218,8 @@ function displayWork() {
           var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[index].description);
           $(".work-entry:last").append(formattedDescription);
         }
-      };
-    displayWork();
+}
+displayWork();
     $(document).click(function(loc) {
       var x = loc.pageX;
       var y = loc.pageY;
@@ -232,8 +232,8 @@ function displayWork() {
       nameSplit[1] = nameSplit[1].toUpperCase();
       nameSplit[0] = nameSplit[0].slice(0,1).toUpperCase() + nameSplit[0].slice(1).toLowerCase();
       return nameSplit[0] + " " + nameSplit[1];
-    };
-    $("#main").append(internationalizeButton);
+    }
+$("#main").append(internationalizeButton);
     document.getElementById("iBtn").style.display="none";
 
 projects.display = function() {
@@ -286,7 +286,7 @@ function displayEducation() {
         $(".education-entry:last").append(formattedOnlineURL);
     }
 
-};
+}
 displayEducation();
 
 function displayMap() {

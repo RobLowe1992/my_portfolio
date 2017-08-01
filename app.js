@@ -11,7 +11,7 @@ var users = require('./routes/users');
 var app = express();
 
 app.listen(7050, ()=>{
-  console.log('Listening on port 7050')
+  console.log('Listening on port 7050');
 })
 
 // view engine setup
@@ -30,7 +30,7 @@ app.use('/', index);
 app.use('/users', users);
 
 app.get('/resume', (req, res)=>{
-  res.render('resume')
+  res.render('resume');
 })
 
 // catch 404 and forward to error handler

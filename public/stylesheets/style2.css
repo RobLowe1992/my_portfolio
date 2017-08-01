@@ -297,7 +297,7 @@ header {
     text-align: center !important;
   }
   .project-title h3{
-    padding-right: 0px !important;
+    padding-right: 0 !important;
   }
   div.education-entry{
   min-height: 188px;
