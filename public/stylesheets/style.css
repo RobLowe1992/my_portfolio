@@ -1,16 +1,28 @@
+@font-face {
+  font-family: 'Dense';
+  src: url("/fonts/Dense-Regular.otf") format('opentype');
+}
 body {
   margin : 0 auto;
   font-family : "Amatic SC";
   font-weight : 700;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
 }
 header {
-  background: url("/images/header.jpg");
-  background-size: 100%;
-  background-position: 50% 65%;
-  height: 550px;
+  background: url("/images/header2.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 main {
-  background-image : url("http://images.faena.com/wp-content/uploads/sites/4/2016/09/fog-forest-nature-640-9331-cool.jpg");
+  /*background-image : url("http://images.faena.com/wp-content/uploads/sites/4/2016/09/fog-forest-nature-640-9331-cool.jpg");*/
+  position: relative;
 }
 main section div:nth-of-type(2) {
   margin : 0 auto;
@@ -21,11 +33,44 @@ main section div:nth-of-type(2) {
 main section div.row:nth-of-type(4) {
   overflow-x: auto;
 }
-.about {
+.about, .work, .contact {
+  min-height: 100vh;
+  position: relative;
+}
+
+.about-bg, .contact-bg, .work-bg {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100vh;
+}
+.about-bg, .contact-bg {
+  background-color: #6f4b59;
+  color: white;
+}
+.about-bg{
+  background-color: #e76839;
+}
+.about-bg h1, .contact-bg h1, .work-bg h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 10em !important;
+  display: inline-block;
+  position: relative;
+  border: .1em solid white;
+  padding: .3em;
+  color: white;
+}
+.about-cont, .work-cont, .contact-cont, .about-bg, .work-bg, .contact-bg{
+  min-height: 100vh;
+  position: relative;
+}
+.about-cont {
+  background-color: white;
+}
+
+.about-info {
   padding: 3em;
   width: 100%;
-  background-color: white;
-  font-family: 'Lato';
+  font-family: 'Dense';
   margin: 0 auto
 }
 .about h1{
@@ -37,6 +82,72 @@ main section div.row:nth-of-type(4) {
 .titles {
   font-size: 2.5em;
   margin: 1em 0 .5em 0;
+}
+.work {
+  min-height: 100vh;
+  position: relative;
+}
+.work-bg {
+  background-color: #000;
+  position: absolute;
+  right: 0;
+}
+.work-cont{
+  background: url("/images/work.jpeg");
+  background-size: 100%;
+  /*background-position: -30% 20%;*/
+  height: 100%;
+  width: 111vh;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.contact {
+  min-height: 100vh;
+  position: relative;
+}
+.section-titles{
+  display: inline-block;
+}
+.bookmarks {
+  position: absolute;
+  z-index: 10;
+  top: 3em;
+}
+.project{
+  position: absolute;
+  width: 58.81%;
+  height: 38.55%;
+  border: solid black 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  left: 17.9%;
+  top: 12.7%;
+}
+.project img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.project-info{
+  position: relative;
+  background-color: black ;
+  width:100%;
+}
+/*.contact-bg {*/
+  /*background-color: white;*/
+  /*min-height: 100vh;*/
+  /*min-width: 50vh;*/
+}
+.contact-cont {
+  background: url("/images/contact.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 nav {
   position : relative;
@@ -64,6 +175,7 @@ nav {
 }
 .header-content {
   padding-top: 2em;
+  margin-top: 4em;
 }
 header a img {
   margin-top : 5px;
@@ -72,32 +184,55 @@ header a img {
   width : 70px;
   height : 35px;
 }
-header section:nth-of-type(1) {
-  position : fixed;
-  width : 100%;
-  z-index : 1;
+.description {
+  margin-top: 3em;
 }
-header section:nth-of-type(2) {
+.navi {
+  margin-top: 3em;
+  font-size: 1.5em;
+}
+
+.navi a {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.navi a:hover {
+  text-decoration: none;
+}
+.navi a:focus {
+  text-decoration: none;
+}
+.navi a img {
+  height: 1.5em;
+  position: absolute;
+  right: 1em;
+}
+header section {
   padding-top : 50px;
   color : white;
 }
-header section:nth-of-type(2) div.fly-in-text {
+header section div.fly-in-text {
   position: relative;
   top: 30px;
 
 }
-header section:nth-of-type(2) div.fly-in-text span {
+.img-circle {
+  opacity: 1;
+  margin: 7em auto 5em auto;
+}
+
+header section div.fly-in-text span {
   font-size: 4.5em;
 }
 
-header section:nth-of-type(2) div.fly-in-text:nth-of-type(2) span{
+header section div.fly-in-text:nth-of-type(2) span{
   font-size: 3em;
 }
 
-header section:nth-of-type(2) h1 {
+header section h1 {
   margin-top : 0;
 }
-header section:nth-of-type(2) img {
+header section img {
   width : 250px;
   height : 250px;
   position: relative;
@@ -107,16 +242,13 @@ header section:nth-of-type(2) img {
   width : 80%;
 
 }
-.top-text {
-  color: black;
-}
 .proj-title {
-  font-family: 'Lato', helvetica;
+  font-family: 'Lato', sans-serif;
 }
 .orange {
   color : #f9b460;
   font-size: 1em;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
 }
 .orange:hover {
   color: white;
@@ -138,12 +270,20 @@ header section:nth-of-type(2) img {
 ul {
   list-style-type: none;
 }
+.top-text{
+  position: relative;
+  display: inline;
+  left: 0 !important;
+  font-size: 1.3em;
+}
+.top-text, .bottom-text {
+  font-family: "Lato", sans-serif;
+}
 .fly-in-text {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
-  background-color: none;
 }
 .fly-in-text span {
   display: inline-block;
@@ -205,15 +345,6 @@ ul {
   }
 }
 
-@media screen and (max-width: 450px) {
-  .logo {
-    display: none;
-  }
-  .fly-in-text:nth-of-type(2) {
-    font-weight: 900;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .skills {
     margin-top: 2em;
@@ -221,7 +352,39 @@ ul {
   .skills:hover  {
     transform: translateX(360);
   }
-  header {
-    background-size: cover;
+}
+
+@media screen and (max-width: 800px) {
+  .top-text {
+    font-size: 1em;
+  }
+  .bottom-text {
+    font-size: .9em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .top-text {
+    font-size: .7em;
+  }
+  .bottom-text {
+    font-size: .8em;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo {
+    display: none;
+  }
+
+  .fly-in-text:nth-of-type(2) {
+    font-weight: 900;
+  }
+
+  .top-text {
+    font-size: .55em;
+  }
+
+  .bottom-text {
+    font-size: .6em;
   }
 }
