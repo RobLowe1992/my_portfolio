@@ -41,15 +41,15 @@ $(function() {
     sr.reveal('.top-nav', {
         duration: 2500,
         origin: 'bottom'
-    })
+    });
     sr.reveal('.left-scroll', {
         duration: 1500,
         origin: 'left'
-    })
+    });
     sr.reveal('.right-scroll', {
         duration: 1500,
         origin: 'right'
-    })
+    });
 
     $('.slide').click(function(e){
         e.preventDefault();
