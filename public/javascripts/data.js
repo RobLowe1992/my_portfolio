@@ -94,6 +94,15 @@ $(function() {
         $('#website').attr({
             'href': 'https://baopham92.github.io/hangry/#/'
         });
+        $('#entry-list').html('<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">AngularJS</li>\n'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">HTML5</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">CSS3</li>\n'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Javascript</li>\n'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">jQuery</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Bootstrap</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Ruby</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Ruby on Rails</li>');
+
     });
     $('#simon').click(function(){
         $('.proj-display').css({
@@ -112,7 +121,10 @@ $(function() {
         $('#website').attr({
             'href': 'https://roblowe1992.github.io/simon/'
         });
-
+        $('#entry-list').html('<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">HTML5</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">CSS3</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Javascript</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">jQuery</li>');
     });
     $('#tcmock').click(function(){
         $('.proj-display').css({
@@ -131,8 +143,14 @@ $(function() {
         $('#website').attr({
             'href': 'https://tech-crunch-mock.herokuapp.com/'
         });
-
-
+        $('#entry-list').html('<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">HTML5</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">CSS3</li>\n'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Ajax</li>\n'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Javascript</li>\n'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">jQuery</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Bootstrap</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Ruby</li>'+
+            '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Ruby on Rails</li>');
     });
 });
 

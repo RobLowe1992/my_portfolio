@@ -136,12 +136,13 @@ main section div.row:nth-of-type(4) {
   margin: 0 1em 0 1em;
 }
 .sites {
-  font-size: .5em;
+  font-size: .4em;
   color: #6f4b59;
 }
 .sites:hover{
   text-decoration: none;
   cursor: pointer;
+  color: black;
 }
 .sites:focus{
   text-decoration: none;
@@ -161,6 +162,7 @@ main section div.row:nth-of-type(4) {
 }
 .entry-list {
   list-style: square ;
+  display: block;
 }
 .entry-info{
   font-size: 3em;
@@ -278,6 +280,7 @@ header a img {
   position: absolute;
   top: -15vh;
   font-size: 2em;
+  font-family: "Dense", sans-serif;
 }
 .entries {
   color: white;
@@ -285,11 +288,11 @@ header a img {
 .entries:hover {
   text-decoration: none;
   cursor: pointer;
-  color: white;
+  color: #999999;
   text-decoration: none;
 }
 .entries:focus {
-  color: white;
+  color: #999;
   text-decoration: none;
 }
 .navi {
@@ -305,6 +308,7 @@ header a img {
 }
 .navi a:hover {
   text-decoration: none;
+  color: #999;
 }
 .navi a:focus {
   text-decoration: none;
@@ -345,6 +349,10 @@ header section img {
   position: relative;
 }
 
+.slide:hover{
+  color: #99999;
+}
+
 .slide:hover, .socials:hover {
   cursor: pointer;
 }
@@ -362,6 +370,9 @@ header section img {
   top: 60vh;
   left: 2vh;
 }
+.entry .entry-info, .caption {
+  text-align: center;
+}
 .entry h2 {
   padding-left: 0;
 }
@@ -369,8 +380,10 @@ header section img {
   font-family: 'Lato', sans-serif;
 }
 .proj-sub-image {
-  height: 20vh;
   padding-right: 0;
+  padding-left: 0;
+  left: -2vh;
+  border-top: solid #999 .2em;
 }
 .orange {
   color : #f9b460;
@@ -394,8 +407,14 @@ header section img {
   margin : 20px;
   padding : 20px;
 }
+.white {
+  color: white;
+}
 ul {
   list-style-type: none;
+}
+#top {
+  margin: 0 auto;
 }
 .top-text{
   position: relative;
@@ -460,12 +479,11 @@ ul {
 .fly-in-text.temp-hide span:nth-child(25) {transform: translateX(-230px) translateY(30px)}
 .fly-in-text.temp-hide span:nth-child(26) {transform: translateX(30px) translateY(-130px)}
 
-/*@media screen and (max-width: 1200px) {*/
-  /*#projects {*/
-    /*display: inline-block;*/
-    /*margin: 0 auto;*/
-  /*}*/
-/*}*/
+@media screen and (max-width: 1199px) {
+  .entry-list {
+    display: flex;
+  }
+}
 
 @media screen and (max-width: 1000px) {
   main section div.row:nth-of-type(4) {
@@ -486,6 +504,11 @@ ul {
   }
   .skills:hover  {
     transform: translateX(360);
+  }
+}
+@media screen and (max-width: 950px) {
+  .entry-list {
+    display: inherit;
   }
 }
 
