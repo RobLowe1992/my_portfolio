@@ -231,6 +231,9 @@ main section div.row:nth-of-type(4) {
 .contact-section h1{
   font-size: 6em;
 }
+.contact-section h3{
+  font-size: 3em;
+}
 nav {
   position : relative;
 }
