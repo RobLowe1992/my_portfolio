@@ -102,7 +102,7 @@ $(function() {
             '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Bootstrap</li>'+
             '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Ruby</li>'+
             '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Ruby on Rails</li>');
-
+        $('#caption').text('Hangry was made in a collaborative effort with Bao Pham and Curry Lee. This project features an AngularJS front-end and Ruby on Rails back-end. It also utilizes an external API(Zomato) as well an API using HTTParty to connect the back-end to the front-end. This application is a single page application which takes advantage state functionality provided through AngularJS.');
     });
     $('#simon').click(function(){
         $('.proj-display').css({
@@ -125,6 +125,7 @@ $(function() {
             '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">CSS3</li>'+
             '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Javascript</li>'+
             '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">jQuery</li>');
+        $('#caption').text('This is a clone of the game Simon. The objective of the game is to watch a sequence of lights flash and then attempt to match them. Passing the level will cause the number of flashes to increment by one. Failing to pass the level will reset the game at level 1.');
     });
     $('#tcmock').click(function(){
         $('.proj-display').css({
@@ -151,6 +152,7 @@ $(function() {
             '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Bootstrap</li>'+
             '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Ruby</li>'+
             '<li class="entry-technolgies col-xs-12 col-sm-12 col-md-12 col-lg-12">Ruby on Rails</li>');
+        $('#caption').text('This site was made to test my design skills and ability to implement CRUD functionality. This full-stack application was made using Ruby on Rails. It is a mock up of the site TechCrunch. It features articles pulled in from an external API(provided from TechCrunch), CRUD functionality, User Authentication and multiple models.');
     });
 });
 
