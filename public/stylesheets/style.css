@@ -132,6 +132,21 @@ main section div.row:nth-of-type(4) {
   line-height: normal;
   top: 50%;
 }
+.site-title {
+  margin: 0 1em 0 1em;
+}
+.sites {
+  font-size: .5em;
+  color: #6f4b59;
+}
+.sites:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+.sites:focus{
+  text-decoration: none;
+  color: #6f4b59;
+}
 .project-higlight {
   font-family: 'Dense', sans-serif;
   position: absolute;
@@ -146,6 +161,10 @@ main section div.row:nth-of-type(4) {
 }
 .entry-list {
   list-style: square ;
+}
+.entry-info{
+  font-size: 3em;
+  color: #999;
 }
 .entry-technolgies{
   font-size: 2em;
@@ -255,16 +274,23 @@ header a img {
 
 }
 .work-nav {
+  z-index: 10;
   position: absolute;
   top: -15vh;
   font-size: 2em;
 }
-.work-nav a {
+.entries {
   color: white;
 }
-.work-nav a:hover {
+.entries:hover {
   text-decoration: none;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.entries:focus {
+  color: white;
+  text-decoration: none;
 }
 .navi {
   margin-top: 3em;

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8d9025-cbf5-4043-89c8-246d163ab7a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/data.js" afterPath="$PROJECT_DIR$/public/javascripts/data.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
@@ -18,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43963364">
+    <splitter split-orientation="horizontal" split-proportion="0.41288784">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/javascripts/data.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="636">
-                  <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+                <state relative-caret-position="512">
+                  <caret line="109" column="71" lean-forward="false" selection-start-line="109" selection-start-column="71" selection-end-line="109" selection-end-column="71" />
                   <folding />
                 </state>
               </provider>
@@ -51,11 +50,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="387">
-                  <caret line="266" column="17" lean-forward="false" selection-start-line="266" selection-start-column="17" selection-end-line="266" selection-end-column="17" />
+                <state relative-caret-position="519">
+                  <caret line="143" column="17" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -68,12 +67,22 @@
           <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/index.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="348">
-                  <caret line="204" column="35" lean-forward="false" selection-start-line="204" selection-start-column="35" selection-end-line="204" selection-end-column="35" />
+                <state relative-caret-position="406">
+                  <caret line="176" column="103" lean-forward="true" selection-start-line="176" selection-start-column="103" selection-end-line="176" selection-end-column="103" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#section#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1501648907000" expanded="true" signature="16258:16504" ph="..." />
+                    <marker date="1501658176000" expanded="true" signature="16657:16903" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="phrase.rnc" pinned="false" current-in-tab="false">
+            <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="267">
+                  <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -84,11 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cover</find>
-      <find>3em</find>
-      <find>url</find>
-      <find>light</find>
-      <find>img-ci</find>
       <find>height</find>
       <find>navb</find>
       <find>z-in</find>
@@ -112,6 +116,13 @@
       <find>descriptio</find>
       <find>60vh</find>
       <find>work-nav</find>
+      <find>entri</find>
+      <find>work-n</find>
+      <find>entry-in</find>
+      <find>50</find>
+      <find>100</find>
+      <find>simon</find>
+      <find>sites</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -131,9 +142,9 @@
         <option value="$PROJECT_DIR$/public/images/github2.svg" />
         <option value="$PROJECT_DIR$/public/images/gmail.svg" />
         <option value="$PROJECT_DIR$/public/images/linkedin.svg" />
-        <option value="$PROJECT_DIR$/public/javascripts/data.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/data.js" />
       </list>
     </option>
   </component>
@@ -188,6 +199,12 @@
               <item name="port" type="b2602c69:ProjectViewProjectNode" />
               <item name="port" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="port" type="b2602c69:ProjectViewProjectNode" />
@@ -255,12 +272,12 @@
       <workItem from="1501360641887" duration="115000" />
       <workItem from="1501516555514" duration="34314000" />
       <workItem from="1501610192690" duration="13122000" />
-      <workItem from="1501637237887" duration="8899000" />
+      <workItem from="1501637237887" duration="15954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69145000" />
+    <option name="totallyTimeSpent" value="76200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,13 +343,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/bioPic.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -395,7 +405,7 @@
           <caret line="142" column="36" lean-forward="false" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#1;n#section#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1501648907000" expanded="true" signature="16258:16504" ph="..." />
+            <marker date="1501658176000" expanded="true" signature="16657:16903" ph="..." />
           </folding>
         </state>
       </provider>
@@ -428,7 +438,7 @@
           <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#1;n#section#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1501648907000" expanded="true" signature="16258:16504" ph="..." />
+            <marker date="1501658176000" expanded="true" signature="16657:16903" ph="..." />
           </folding>
         </state>
       </provider>
@@ -491,7 +501,7 @@
           <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#1;n#section#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1501648907000" expanded="true" signature="16258:16504" ph="..." />
+            <marker date="1501658176000" expanded="true" signature="16657:16903" ph="..." />
           </folding>
         </state>
       </provider>
@@ -660,30 +670,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/data.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="267">
+          <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="266" column="17" lean-forward="false" selection-start-line="266" selection-start-column="17" selection-end-line="266" selection-end-column="17" />
+        <state relative-caret-position="519">
+          <caret line="143" column="17" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="204" column="35" lean-forward="false" selection-start-line="204" selection-start-column="35" selection-end-line="204" selection-end-column="35" />
+        <state relative-caret-position="406">
+          <caret line="176" column="103" lean-forward="true" selection-start-line="176" selection-start-column="103" selection-end-line="176" selection-end-column="103" />
           <folding>
             <element signature="n#style#0;n#div#1;n#section#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1501648907000" expanded="true" signature="16258:16504" ph="..." />
+            <marker date="1501658176000" expanded="true" signature="16657:16903" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="109" column="71" lean-forward="false" selection-start-line="109" selection-start-column="71" selection-end-line="109" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,5 @@
 $(function() {
+    // Data
     var projects = [{
         "img": "/images/simon.png",
         "url": "https://roblowe1992.github.io/simon/",
@@ -37,6 +38,8 @@ $(function() {
     }, 500);
     $thumbnailImage.fadeIn(500);
 
+    // Scroll Events
+
     window.sr = ScrollReveal();
     sr.reveal('.top-nav', {
         duration: 2500,
@@ -59,15 +62,77 @@ $(function() {
         reset: true
     });
 
+    // jQuery Events
+
     $('.slide').click(function(e){
         e.preventDefault();
         var linkedHref = $(this).attr('href');
-        console.log(linkedHref);
         $('html,body').animate({scrollTop: $(linkedHref).offset().top}, 1000);
     });
-
     $('.rubber').hover(function(){
         $(this).toggleClass('animated rubberBand');
+    });
+    $('.entries').click(function(e){
+        e.preventDefault();
+        var linked = $(this).attr('href');
+        console.log(linked);
+    });
+    $('#hangry').click(function(){
+        $('.proj-display').css({
+            'background': 'url("/images/hangry-display.png")',
+            'background-position': '50% 20%'
+        });
+        $('#proj-sub-image-1').attr({
+            'src': '/images/hangry-sub-2.png'
+        });
+        $('#proj-sub-image-2').attr({
+            'src': '/images/hangry-sub-1.png'
+        });
+        $('#github').attr({
+            'href': 'https://github.com/AskForTheWolf/Project3'
+        });
+        $('#website').attr({
+            'href': 'https://baopham92.github.io/hangry/#/'
+        });
+    });
+    $('#simon').click(function(){
+        $('.proj-display').css({
+            'background': 'url("/images/simon-display.png")',
+            'background-position': '50% 20%'
+        });
+        $('#proj-sub-image-1').attr({
+            'src': '/images/simon-code.png'
+        });
+        $('#proj-sub-image-2').attr({
+            'src': '/images/simon-github.png'
+        });
+        $('#github').attr({
+            'href': 'https://github.com/RobLowe1992/simon/tree/gh-pages'
+        });
+        $('#website').attr({
+            'href': 'https://roblowe1992.github.io/simon/'
+        });
+
+    });
+    $('#tcmock').click(function(){
+        $('.proj-display').css({
+            'background': 'url("/images/tcmock-display.png")',
+            'background-position': '50% 20%'
+        });
+        $('#proj-sub-image-1').attr({
+            'src': '/images/tcmock-sub-1.png'
+        });
+        $('#proj-sub-image-2').attr({
+            'src': '/images/tcmock-sub-2.png'
+        });
+        $('#github').attr({
+            'href': 'https://github.com/RobLowe1992/techcrunch_full_stack/tree/new_master'
+        });
+        $('#website').attr({
+            'href': 'https://tech-crunch-mock.herokuapp.com/'
+        });
+
+
     });
 });
 
