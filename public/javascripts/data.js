@@ -40,15 +40,23 @@ $(function() {
     window.sr = ScrollReveal();
     sr.reveal('.top-nav', {
         duration: 2500,
-        origin: 'bottom'
+        origin: 'bottom',
+        reset: true
     });
     sr.reveal('.left-scroll', {
         duration: 1500,
-        origin: 'left'
+        origin: 'left',
+        reset: true
     });
     sr.reveal('.right-scroll', {
         duration: 1500,
-        origin: 'right'
+        origin: 'right',
+        reset: true
+    });
+    sr.reveal('.work-nav', {
+        duration: 1500,
+        origin: 'right',
+        reset: true
     });
 
     $('.slide').click(function(e){
@@ -56,6 +64,10 @@ $(function() {
         var linkedHref = $(this).attr('href');
         console.log(linkedHref);
         $('html,body').animate({scrollTop: $(linkedHref).offset().top}, 1000);
+    });
+
+    $('.rubber').hover(function(){
+        $(this).toggleClass('animated rubberBand');
     });
 });
 
